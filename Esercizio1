@@ -1,0 +1,80 @@
+ESERCIZIO 1
+L’esercizio è mirato a prendere confidenza con il concetto di dato e informazione.
+Scegli un Argomento di tuo interesse, riporta su un documento testuale quali informazioni ti piacerebbe derivare cercando su internet i potenziali dataset strutturati e non strutturati (almeno 3 del primo tipo, 2 del secondo) utilizzabili. Per ogni dataset strutturato individua gli attributi e l’identificativo, per ogni dataset non strutturato descrivi le analisi che svolgeresti su di esso e l’obiettivo di queste analisi.
+TIPO 1 DATASET STRUTTURATI
+Argomento: Due set di dati relativi a campioni di vino rosso e bianco del vinho verde (Vinho Verde è un vino portoghese originario della provincia storica del Minho nell'estremo nord del Portogallo). L'obiettivo è modellare la qualità del vino sulla base di test fisico-chimici. 
+Link: https://archive.ics.uci.edu/ml/datasets/wine+quality
+
+DATASET STRUTTURATI – INFORMAZIONI SUGLI ATTRIBUTI
+	Variabili di input (basate su test fisico-chimici):
+1 - acidità fissa
+2 - acidità volatile
+3 - acido citrico
+4 - zuccheri residui
+5 - cloruri
+6 - anidride solforosa libera
+7 - anidride solforosa totale
+8 - densità
+9 - pH
+10 - solfati
+11 – alcool
+	Variabile di output (basata su dati sensoriali):
+12 - qualità (punteggio compreso tra 0 e 10)
+DATASET STRUTTURATI – IDENTIFICATIVO
+	Campione di vino rosso (vinho verde)
+	Campione di vino bianco (vinho verde)
+
+TIPO 2 DATASET STRUTTURATI
+Argomento: I migliori brand che sponsorizzano il calcio a partire da maggio 2022
+Link: https://www.globaldata.com/data-insights/sport/most-active-brands-sponsoring-soccer/
+
+DATASET STRUTTURATI – INFORMAZIONI SUGLI ATTRIBUTI
+	Variabili di input:
+1 - Nome Brand
+2 - Numero contratto di sponsorizzazione
+3 - Data Contratto
+4 - Valore della Sponsorizzazione 
+	Variabile di output:
+5 – Quantità (Numero totali di accordi/contratti chiusi)
+DATASET STRUTTURATI – IDENTIFICATIVO
+	Adidas
+	Coca-Cola
+	Nike
+	PUMA
+	Socios.com
+	EA Sports
+	Macron
+	Heineken
+	PepsiCo
+	Umbro
+
+ 
+TIPO 3 DATASET STRUTTURATI
+Argomento: I dataset di annunci per appartamenti in affitto negli Stati Uniti.
+Link: https://archive.ics.uci.edu/ml/datasets/Apartment+for+rent+classified
+DATASET STRUTTURATI – INFORMAZIONI SUGLI ATTRIBUTI
+	Variabili di input:
+1- Id (Identificativo univoco)
+2- categoria dell'appartamento (Villa, appartamento, casa singola)
+3- servizi dell'appartamento (aria condizionata, basket, cavo, palestra)
+4- bagni (numero di bagni)
+5- camere da letto (numero di camere da letto)
+6- prezzo (prezzo di affitto dell'appartamento)
+7-photo (Foto app)
+8- Animali ammessi (quali animali sono ammessi cani/gatti ecc.)
+9- Indirizzo (dell'indirizzo dell'appartamento)
+10-Nome città 
+11- Stato
+12- Latitudine 
+13- Longitudine 
+DATASET STRUTTURATI – IDENTIFICATIVO
+Case negli Stati Uniti
+
+
+TIPO 1 DATASET NON STRUTTURATI
+Analizziamo i dati riprodotti dall’email, alcune informazioni posso essere inserite in formato tabellare come:
+DESTINATARIO	MITTENDE	OGGETTO	ORA ARRIVO
+Ma le informazioni più importanti, cioè il corpo della mail se vengono inserite in un campo unico si perderebbe di leggibilità. Si potrebbe procedere con una pre-analisi cosi da definire una struttura anche se parziale ai dati. Esempio: Contare il numero di parole presenti all’interno del testo, Individuazione di caratteri speciali (punto interrogativo o escalamativo). O ancora individuando il tema degli argomenti trattati.
+
+
+#PierluigiVenneri
